@@ -12,6 +12,7 @@ A React-based poll application where users can vote for their favorite options a
 - **Celebration Effect**: Confetti animation on submission
 - **Responsive Design**: Optimized for mobile & desktop
 
+
 ![Poll App Screenshot](./screenshot.png)
 
 ---
@@ -47,7 +48,7 @@ src/
 ## 🚀 Setup & Run
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/poll-app.git
+   git clone https://github.com/chijex5/my-poll-project.git
    ```
 2. **Navigate to Project Folder**:
    ```bash
@@ -71,15 +72,6 @@ src/
 
 ---
 
-## 🌐 Deployment
-### 🚀 Netlify
-1. Create a new site from your repository.
-2. Set build command:  
-   ```bash
-   npm run build
-   ```
-3. Publish directory: `build`.
-
 ### ⚡ Vercel
 1. Import the project into Vercel.
 2. Enable automated deployments from GitHub.
@@ -101,25 +93,9 @@ src/
 
 ---
 
-## 💻 Code Quality
-- **Modular component architecture** for maintainability.
-- **TypeScript** for better type safety.
-- **Prettier & ESLint** for code formatting & linting.
-- **Semantic CSS class names** for readability.
 
----
-
-## 📤 Submission Instructions
-1. **Deploy the project** using Surge, Netlify, or Vercel.
-2. **Upload the code** to a GitHub repository.
-3. **Fill out the submission form** with:
-   - **GitHub Repository Link**: [Insert link here]
-   - **Live Demo URL**: [Insert live demo link here]
-
----
 
 ## 💎 Contact
-For any questions, email: [your-email@example.com]
+For any questions, email: [embroconnect3@gmail.com]
 
-Thank you for your submission! 🚀
 
