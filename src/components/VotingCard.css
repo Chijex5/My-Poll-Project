@@ -1,0 +1,61 @@
+/* Base Card Styles */
+.voting-card {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .voting-card:not(.disabled):hover {
+    border-color: #93c5fd;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Selected State */
+  .voting-card.selected {
+    background-color: #dbeafe;
+    border-color: #3b82f6;
+  }
+  
+  /* Disabled State */
+  .voting-card.disabled {
+    cursor: not-allowed;
+  }
+  
+  /* Content Layout */
+  .card-content {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .option-text {
+    font-weight: 500;
+    color: #1f2937;
+  }
+  
+  .percentage-text {
+    font-weight: 600;
+    color: #2563eb;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #dbeafe;
+    z-index: 1;
+  }

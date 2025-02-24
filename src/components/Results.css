@@ -1,0 +1,210 @@
+/* Container Styles */
+.results-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.3rem;
+  }
+  
+  .results-animated-wrapper {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  /* Header Styles */
+  .results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .results-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+  
+  .change-vote-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Equivalent to gap-2 */
+    padding: 0.5rem 1rem; /* Equivalent to px-4 py-2 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    font-weight: 500; /* Equivalent to font-medium */
+    color: #ffffff; /* Equivalent to text-white */
+    background-color: #3b82f6; /* Equivalent to bg-blue-500 */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .change-vote-button:hover {
+    background-color: #2563eb; /* Equivalent to hover:bg-blue-600 */
+  }
+  
+  .change-vote-button:active {
+    transform: scale(0.98); /* Equivalent to whileTap={{ scale: 0.98 }} */
+  }
+  
+  .change-vote-button:hover {
+    transform: scale(1.02); /* Equivalent to whileHover={{ scale: 1.02 }} */
+  }
+  
+  
+  .back-arrow-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  /* Stats Cards */
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stats-card {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid #e0e7ff;
+    background: linear-gradient(to bottom right, #f8faff, #ffffff);
+  }
+  
+  .total-votes-card {
+    border-color: #bfdbfe;
+  }
+  
+  .winner-card {
+    border-color: #a7f3d0;
+  }
+  
+  .stats-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .votes-icon {
+    color: #3b82f6;
+  }
+  
+  .winner-icon {
+    color: #10b981;
+  }
+  
+  .stats-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #374151;
+    margin: 0.25rem 0;
+  }
+  
+  .stats-label {
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  /* Vote Items */
+  .votes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .vote-item {
+    width: 100%;
+  }
+  
+  .vote-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .vote-option-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .option-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  .leading-indicator {
+    display: flex;
+    align-items: center;
+  }
+  
+  .trending-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #10b981;
+  }
+  
+  .user-vote-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    background: #dbeafe;
+    color: #1d4ed8;
+    border-radius: 999px;
+  }
+  
+  .vote-count-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .vote-count {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .vote-percentage {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #3b82f6;
+  }
+  
+  /* Progress Bars */
+  .progress-bar-container {
+    position: relative;
+    height: 0.75rem;
+    background: #f3f4f6;
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 999px;
+    background: #3b82f6;
+  }
+  
+  .leading-progress {
+    background: linear-gradient(to right, #3b82f6, #60a5fa);
+  }
+  
+  .progress-bar-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0.1) 25%, transparent 25%);
+    background-size: 20px 100%;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }

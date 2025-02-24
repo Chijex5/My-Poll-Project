@@ -1,0 +1,60 @@
+/* Main Container */
+.app-container {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Poll Card */
+  .poll-card {
+    max-width: 28rem;
+    width: 100%;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    position: relative;
+  }
+  
+  .gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(219, 234, 254, 0.3) 0%, transparent 100%);
+    border-radius: 1rem;
+    pointer-events: none;
+  }
+  
+  /* Header */
+  .poll-header {
+    position: relative;
+    pointer-events: auto;
+  }
+  
+  .poll-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .poll-description {
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Voting Options */
+  .voting-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .results-container {
+    width: 100%;
+  }
